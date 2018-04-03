@@ -132,6 +132,7 @@ module.exports = {
         pathToConfigModule: 'src/utils/typography',
       },
     },
+      `gatsby-plugin-netlify`,
       {
           resolve: `gatsby-plugin-manifest`,
           options: {
@@ -156,6 +157,5 @@ module.exports = {
           },
       },
       `gatsby-plugin-offline`,
-      `gatsby-plugin-netlify`,
   ],
 }
